@@ -4,7 +4,8 @@ A Python bridge between Stockfish and a browser-based chessboard.
 ♔ ♕ ♖ ♗ ♘ ♙  ·  ♚ ♛ ♜ ♝ ♞ ♟
 
 Python · Stockfish · Selenium · python-chess
-</div>♟ About
+</div>
+# ♟ About
 Chess-ZeroLoss is a small Windows-based Python experiment that connects a local Stockfish engine to a Chess.com board through Chrome automation.
 
 It follows the moves on the page, reconstructs the position using python-chess, and asks Stockfish to calculate a reply. The goal was to experiment with engine integration, board synchronization, and browser automation in one project.
@@ -69,7 +70,7 @@ Automation: Python + Selenium
 Note: This was an individual test, not an official engine benchmark. The opponent's displayed rating does not represent Chess-ZeroLoss's own Elo rating.
 
 Stockfish is currently asked to think for 0.5 seconds per move (chess.engine.Limit(time=0.5)). You can adjust that value in play_engine_move().
-♛ Project files
+# ♛ Project files
 Chess-ZeroLoss/
 ├── main.py       # Browser automation, board tracking and engine moves
 └── setup.ps1     # Downloads and installs the Stockfish executable
@@ -79,7 +80,7 @@ The setup script creates the engine directory locally, and Chrome creates a pers
 - The script is designed for Windows; it is not currently a cross-platform application.
 - The Stockfish executable is downloaded separately from the official release source.
 - This is an experimental project, not an official Chess.com or Stockfish integration.
-Acknowledgments
+# Acknowledgments
 - Stockfish — the open-source chess engine
 - python-chess — chess rules, positions and UCI engine communication
 - Selenium — browser automation
