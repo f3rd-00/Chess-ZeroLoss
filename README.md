@@ -1,4 +1,5 @@
-<div align="center">♞ Chess-ZeroLoss
+<div align="center">
+# ♞ Chess-ZeroLoss
 A Python bridge between Stockfish and a browser-based chessboard.
 
 ♔ ♕ ♖ ♗ ♘ ♙  ·  ♚ ♛ ♜ ♝ ♞ ♟
