@@ -5,6 +5,7 @@ A Python bridge between Stockfish and a browser-based chessboard.
 
 Python · Stockfish · Selenium · python-chess
 </div>
+
 # ♟ About
 Chess-ZeroLoss is a small Windows-based Python experiment that connects a local Stockfish engine to a Chess.com board through Chrome automation.
 
